@@ -16,6 +16,8 @@ public class PageController {
 	//变量路径
 @RequestMapping("{module}/{moduleUI}")
 public String doModelUi(@PathVariable String moduleUI) {
+	
+	
 	return "sys/"+moduleUI;
 	
 }

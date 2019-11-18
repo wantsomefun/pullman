@@ -9,6 +9,7 @@ public class GoodsController {
 	
 @RequestMapping("doFindGoods")
 public String doFindGoods() {
+	
 	return"";
 }
 
